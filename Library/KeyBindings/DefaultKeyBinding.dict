@@ -141,7 +141,7 @@
 	"~^F" = ("insertText:", "𝓕");
 	"@~^F" = ("insertText:", "𝓛");
 	"~^\\\\" = ("insertText:", "‖");
-	"~^|" = ("insertText:", "⟂");  // doesn't work in terminal somehow; works in other apps
+	"~^|" = ("insertText:", "⟂");
 	"@~^\\\\" = ("insertText:", "∥");
 	"@~^|" = ("insertText:", "˔");
 
