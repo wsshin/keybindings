@@ -1,0 +1,153 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings
+# * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on OS X and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * http://flight-manual.atom.io/hacking-atom/sections/debugging/#check-the-keybindings
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+# Prepend '.platform-darwin' in front of category, because key bindings use cmd.
+'.platform-darwin atom-text-editor':
+  'ctrl-m': 'custom:insert-nothing'
+  'ctrl-%': 'bracket-matcher:go-to-matching-bracket'
+  'ctrl-u': 'editor:delete-to-beginning-of-line'
+  'cmd-alt-ctrl-6': 'custom:insert-hat'
+  'cmd-alt-ctrl-`': 'custom:insert-tilde'
+  'cmd-alt-ctrl-left': 'custom:insert-bar'
+  'cmd-alt-ctrl-8': 'custom:insert-cross'
+  'cmd-alt-ctrl-.': 'custom:insert-dot'
+  'cmd-alt-ctrl-\\': 'custom:insert-para'
+  'cmd-alt-ctrl-|': 'custom:insert-perp'
+  'ctrl-alt-b': 'custom:insert-beta'
+  'ctrl-alt-d': 'custom:insert-delta'
+  'ctrl-alt-h': 'custom:insert-theta'
+  'ctrl-alt-t': 'custom:insert-tau'
+  'cmd-alt-ctrl-h': 'custom:insert-planck'
+  'cmd-alt-ctrl-shift-h': 'custom:insert-planck-reduced'
+  'cmd-alt-ctrl-shift-e': 'custom:insert-element-of'
+  'cmd-alt-ctrl-a': 'custom:insert-subscript-a'
+  'cmd-alt-ctrl-e': 'custom:insert-subscript-e'
+  'cmd-alt-ctrl-shift-i': 'custom:insert-superscript-i'
+  'cmd-alt-ctrl-i': 'custom:insert-subscript-i'
+  'cmd-alt-ctrl-shift-j': 'custom:insert-superscript-j'
+  'cmd-alt-ctrl-j': 'custom:insert-subscript-j'
+  'cmd-alt-ctrl-shift-k': 'custom:insert-superscript-k'
+  'cmd-alt-ctrl-k': 'custom:insert-subscript-k'
+  'cmd-alt-ctrl-shift-l': 'custom:insert-superscript-l'
+  'cmd-alt-ctrl-l': 'custom:insert-subscript-l'
+  'cmd-alt-ctrl-shift-m': 'custom:insert-superscript-m'
+  'cmd-alt-ctrl-m': 'custom:insert-subscript-m'
+  'cmd-alt-ctrl-shift-n': 'custom:insert-superscript-n'
+  'cmd-alt-ctrl-n': 'custom:insert-subscript-n'
+  'cmd-alt-ctrl-p': 'custom:insert-subscript-p'
+  'cmd-alt-ctrl-r': 'custom:insert-subscript-r'
+  'cmd-alt-ctrl-s': 'custom:insert-subscript-s'
+  'cmd-alt-ctrl-t': 'custom:insert-subscript-t'
+  'cmd-alt-ctrl-u': 'custom:insert-subscript-u'
+  'cmd-alt-ctrl-v': 'custom:insert-subscript-v'
+  'cmd-alt-ctrl-+': 'custom:insert-superscript-plus'
+  'cmd-alt-ctrl-=': 'custom:insert-subscript-plus'
+  'cmd-alt-ctrl-_': 'custom:insert-superscript-minus'
+  'cmd-alt-ctrl--': 'custom:insert-subscript-minus'
+'.platform-darwin atom-workspace':
+  'ctrl-l': 'julia-client:clear-console'
+  'cmd-j cmd-k': 'julia-client:clear-REPL'
+  'cmd-j cmd-j': 'window:toggle-bottom-dock'
+'.platform-darwin .julia-terminal':
+  'alt-ctrl-1': 'custom:insert-subscript-1'
+  'alt-ctrl-2': 'custom:insert-subscript-2'
+  'alt-ctrl-3': 'custom:insert-subscript-3'
+  'alt-ctrl-4': 'custom:insert-subscript-4'
+  'alt-ctrl-5': 'custom:insert-subscript-5'
+  'alt-ctrl-6': 'custom:insert-subscript-6'
+  'alt-ctrl-7': 'custom:insert-subscript-7'
+  'alt-ctrl-8': 'custom:insert-subscript-8'
+  'alt-ctrl-9': 'custom:insert-subscript-9'
+  'alt-ctrl-0': 'custom:insert-subscript-0'
+  'alt-ctrl-!': 'custom:insert-superscript-1'
+  'alt-ctrl-@': 'custom:insert-superscript-2'
+  'alt-ctrl-#': 'custom:insert-superscript-3'
+  'alt-ctrl-$': 'custom:insert-superscript-4'
+  'alt-ctrl-%': 'custom:insert-superscript-5'
+  'alt-ctrl-^': 'custom:insert-superscript-6'
+  'alt-ctrl-&': 'custom:insert-superscript-7'
+  'alt-ctrl-*': 'custom:insert-superscript-8'
+  'alt-ctrl-(': 'custom:insert-superscript-9'
+  'alt-ctrl-)': 'custom:insert-superscript-0'
+  'alt-ctrl-a': 'custom:insert-alpha'
+  'alt-ctrl-b': 'custom:insert-beta'
+  'alt-ctrl-c': 'custom:insert-chi'
+  'alt-ctrl-d': 'custom:insert-delta'
+  'alt-ctrl-e': 'custom:insert-epsilon'
+  'alt-ctrl-g': 'custom:insert-gamma'
+  'alt-ctrl-h': 'custom:insert-theta'
+  'alt-ctrl-j': 'custom:insert-phi'
+  'alt-ctrl-l': 'custom:insert-lambda'
+  'alt-ctrl-p': 'custom:insert-psi'
+  'alt-ctrl-t': 'custom:insert-tau'
+  'alt-ctrl-w': 'custom:insert-omega'
+  'alt-ctrl-shift-w': 'custom:insert-Omega'
+  'cmd-alt-ctrl-6': 'custom:insert-hat'
+  'cmd-alt-ctrl-`': 'custom:insert-tilde'
+  'cmd-alt-ctrl-left': 'custom:insert-bar'
+  'cmd-alt-ctrl-\\': 'custom:insert-para'
+  'cmd-alt-ctrl-|': 'custom:insert-perp'
+  'cmd-alt-ctrl-h': 'custom:insert-planck'
+  'cmd-alt-ctrl-shift-h': 'custom:insert-planck-reduced'
+  'cmd-alt-ctrl-shift-e': 'custom:insert-element-of'
+  'cmd-alt-ctrl-a': 'custom:insert-subscript-a'
+  'cmd-alt-ctrl-e': 'custom:insert-subscript-e'
+  'cmd-alt-ctrl-shift-i': 'custom:insert-superscript-i'
+  'cmd-alt-ctrl-i': 'custom:insert-subscript-i'
+  'cmd-alt-ctrl-shift-j': 'custom:insert-superscript-j'
+  'cmd-alt-ctrl-j': 'custom:insert-subscript-j'
+  'cmd-alt-ctrl-shift-k': 'custom:insert-superscript-k'
+  'cmd-alt-ctrl-k': 'custom:insert-subscript-k'
+  'cmd-alt-ctrl-shift-l': 'custom:insert-superscript-l'
+  'cmd-alt-ctrl-l': 'custom:insert-subscript-l'
+  'cmd-alt-ctrl-shift-m': 'custom:insert-superscript-m'
+  'cmd-alt-ctrl-m': 'custom:insert-subscript-m'
+  'cmd-alt-ctrl-shift-n': 'custom:insert-superscript-n'
+  'cmd-alt-ctrl-n': 'custom:insert-subscript-n'
+  'cmd-alt-ctrl-p': 'custom:insert-subscript-p'
+  'cmd-alt-ctrl-r': 'custom:insert-subscript-r'
+  'cmd-alt-ctrl-s': 'custom:insert-subscript-s'
+  'cmd-alt-ctrl-u': 'custom:insert-subscript-u'
+  'cmd-alt-ctrl-v': 'custom:insert-subscript-v'
+  'cmd-alt-ctrl-+': 'custom:insert-superscript-plus'
+  'cmd-alt-ctrl-=': 'custom:insert-subscript-plus'
+  'cmd-alt-ctrl-_': 'custom:insert-superscript-minus'
+  'cmd-alt-ctrl--': 'custom:insert-subscript-minus'
+  'cmd-alt-ctrl-(': 'custom:insert-superscript-open-parenthesis'
+  'cmd-alt-ctrl-)': 'custom:insert-superscript-close-parenthesis'
+  'cmd-alt-ctrl-9': 'custom:insert-subscript-open-parenthesis'
+  'cmd-alt-ctrl-0': 'custom:insert-subscript-close-parenthesis'
+  'cmd-alt-ctrl-2': 'custom:insert-half'
+  'cmd-alt-ctrl-3': 'custom:insert-third'
+  'cmd-alt-ctrl-4': 'custom:insert-fourth'
+  'alt-ctrl-=': 'custom:insert-approximate-equal'
