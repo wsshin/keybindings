@@ -74,6 +74,13 @@
   'cmd-alt-ctrl-=': 'custom:insert-subscript-plus'
   'cmd-alt-ctrl-_': 'custom:insert-superscript-minus'
   'cmd-alt-ctrl--': 'custom:insert-subscript-minus'
+  'cmd-alt-ctrl-(': 'custom:insert-superscript-open-parenthesis'
+  'cmd-alt-ctrl-)': 'custom:insert-superscript-close-parenthesis'
+  'cmd-alt-ctrl-9': 'custom:insert-subscript-open-parenthesis'
+  'cmd-alt-ctrl-0': 'custom:insert-subscript-close-parenthesis'
+  'cmd-alt-ctrl-2': 'custom:insert-half'
+  'cmd-alt-ctrl-3': 'custom:insert-third'
+  'cmd-alt-ctrl-4': 'custom:insert-fourth'
 '.platform-darwin atom-workspace':
   'ctrl-l': 'julia-client:clear-console'
   'cmd-j cmd-k': 'julia-client:clear-REPL'
