@@ -1,0 +1,164 @@
+{
+	// @: Command
+	// ~: Option
+	// ^: Control
+	// Most obvious symbols are input with Option-Control.
+	// Less obvious symbols are input with Command-Option-Control.
+	// Related symbols are input with Shift.
+
+	// Accents and embellishments
+	"@~^." = ("insertText:","̇");
+	"@~^8" = ("insertText:","̽");
+	"@~^`" = ("insertText:", "̃");
+	"@~^6" = ("insertText:", "̂");
+	"@~^\UF700" = ("insertText:", "̅");  // up
+	"@~^\UF701" = ("insertText:", "̲");  // down
+	"@~^\UF702" = ("insertText:", "⃡");  // left
+	"@~^\UF703" = ("insertText:", "⃗");  // right
+
+	// Superscripts and subscripts
+	"~^T" = ("insertText:", "ᵀ");
+	"@~^T" = ("insertText:", "ᴴ");
+	"~^1" = ("insertText:", "₁");
+	"~^2" = ("insertText:", "₂");
+	"~^3" = ("insertText:", "₃");
+	"~^4" = ("insertText:", "₄");
+	"~^5" = ("insertText:", "₅");
+	"~^6" = ("insertText:", "₆");
+	"~^7" = ("insertText:", "₇");
+	"~^8" = ("insertText:", "₈");
+	"~^9" = ("insertText:", "₉");
+	"~^0" = ("insertText:", "₀");
+	"~^!" = ("insertText:", "¹");
+	"~^\\@" = ("insertText:", "²");
+	"~^\\#" = ("insertText:", "³");
+	"~^\\$" = ("insertText:", "⁴");
+	"~^%" = ("insertText:", "⁵");
+	"~^\\^" = ("insertText:", "⁶");
+	"~^&" = ("insertText:", "⁷");
+	"~^*" = ("insertText:", "⁸");
+	"~^(" = ("insertText:", "⁹");
+	"~^)" = ("insertText:", "⁰");
+	"@~^(" = ("insertText:", "⁽");
+	"@~^)" = ("insertText:", "⁾");
+	"@~^9" = ("insertText:", "₍");
+	"@~^0" = ("insertText:", "₎");
+	"@~^a" = ("insertText:", "ₐ");
+	"@~^e" = ("insertText:", "ₑ");
+	"@~^i" = ("insertText:", "ᵢ");
+	"@~^I" = ("insertText:", "ⁱ");
+	"@~^j" = ("insertText:", "ⱼ");
+	"@~^J" = ("insertText:", "ʲ");
+	"@~^k" = ("insertText:", "ₖ");
+	"@~^K" = ("insertText:", "ᵏ");
+	"@~^l" = ("insertText:", "ₗ");
+	"@~^L" = ("insertText:", "ˡ");
+	"@~^m" = ("insertText:", "ₘ");
+	"@~^M" = ("insertText:", "ᵐ");
+	"@~^n" = ("insertText:", "ₙ");
+	"@~^N" = ("insertText:", "ⁿ");
+	"@~^p" = ("insertText:", "ₚ");
+	"@~^P" = ("insertText:", "ᵖ");
+	"@~^r" = ("insertText:", "ᵣ");
+	"@~^R" = ("insertText:", "ʳ");
+	"@~^s" = ("insertText:", "ₛ");
+	"@~^t" = ("insertText:", "ₜ");
+	"@~^u" = ("insertText:", "ᵤ");
+	//"@~^U" = ("insertText:", "ᵘ");
+	"@~^v" = ("insertText:", "ᵥ");
+	//"@~^V" = ("insertText:", "ᵛ");  // do not uncomment; v in Dvorak is . in QWERTY, and Command-Option-Control-Shift-. happens to be system key binding for sysdiagnose: https://apple.stackexchange.com/questions/59917/how-do-you-get-system-diagnostic-files-from-macos
+	//"@~^W" = ("insertText:", "ʷ");
+	//"@~^X" = ("insertText:", "ˣ");
+	//"@~^Y" = ("insertText:", "ʸ");
+	//"@~^Z" = ("insertText:", "ᶻ");
+	//"@~^T" = ("insertText:", "ᶿ");
+	//"@~^F" = ("insertText:", "ᵠ");
+	"~^?" = ("insertText:", "⸍");  // division; same modifier keys as superscript numbers
+	"~^/" = ("insertText:", "⸝");  // division; same modifier keys as superscript numbers
+	"~^-" = ("insertText:", "−");
+	"@~^-" = ("insertText:", "₋");
+	"@~^_" = ("insertText:", "⁻");
+	"@~^=" = ("insertText:", "₊");  // same modifier as ᵢ and ₙ
+	"@~^+" = ("insertText:", "⁺");  // same modifier as ⁱ and ⁿ
+
+	// Greek letters
+	"~^a" = ("insertText:", "α");
+	"~^b" = ("insertText:", "β");
+	"~^g" = ("insertText:", "γ");
+	"~^G" = ("insertText:", "Γ");
+	"~^d" = ("insertText:", "δ");
+	"~^D" = ("insertText:", "Δ");
+	"~^e" = ("insertText:", "ε");
+	"~^E" = ("insertText:", "ϵ");
+	"~^h" = ("insertText:", "θ");
+	"~^H" = ("insertText:", "Θ");
+	"~^k" = ("insertText:", "κ");
+	"~^l" = ("insertText:", "λ");
+	"~^L" = ("insertText:", "Λ");
+	"~^m" = ("insertText:", "μ");
+	"~^n" = ("insertText:", "ν");
+	"~^N" = ("insertText:", "η");
+	"~^j" = ("insertText:", "ϕ");
+	"~^J" = ("insertText:", "Φ");
+	"~^p" = ("insertText:", "ψ");
+	"~^P" = ("insertText:", "Ψ");
+	"~^r" = ("insertText:", "ρ");
+	"~^s" = ("insertText:", "σ");
+	"~^S" = ("insertText:", "Σ");
+	"~^t" = ("insertText:", "τ");
+	"~^w" = ("insertText:", "ω");
+	"~^W" = ("insertText:", "Ω");
+	"~^c" = ("insertText:", "χ");
+	"~^x" = ("insertText:", "ξ");
+	"~^z" = ("insertText:", "ζ");
+
+	// Arrows
+	"~^\UF700" = ("insertText:", "↑");
+	"~^\UF701" = ("insertText:", "↓");
+	"~^\UF702" = ("insertText:", "←");
+	"~^\UF703" = ("insertText:", "→");
+	"$~^\UF700" = ("insertText:", "⇔");
+	"$~^\UF702" = ("insertText:", "⇐");
+	"$~^\UF703" = ("insertText:", "⇒");
+
+	// Mathematical operators
+	"~'" = ("insertText:", "′");
+	"~\"" = ("insertText:", "″");
+	"~^v" = ("insertText:", "✓");
+	"~J" = ("insertText:", "∇");  // ∇×, ∇⋅ can be input with same modifier keys
+	"~D" = ("insertText:", "∂");
+	"~^D" = ("insertText:", "∫");
+	"~^C" = ("insertText:", "∮");
+	"~?" = ("insertText:", "×");  // ∇×, ∇⋅ can be input with same modifier keys
+	"@~^E" = ("insertText:", "∈");
+	"@~^<" = ("insertText:", "⊂");
+	"@~^>" = ("insertText:", "⊃");
+	"~^=" = ("insertText:", "≈");
+	"~^+" = ("insertText:", "≡");
+	"~C" = ("insertText:", "⋅");  // cdot; ∇×, ∇⋅ can be input with same modifier keys
+	"~^." = ("insertText:", "⟩");
+	"~^," = ("insertText:", "⟨");
+	"~^F" = ("insertText:", "𝓕");
+	"@~^F" = ("insertText:", "𝓛");
+	"~^\\\\" = ("insertText:", "‖");
+	"~^|" = ("insertText:", "⟂");  // doesn't work in terminal somehow; works in other apps
+	"@~^\\\\" = ("insertText:", "∥");
+	"@~^|" = ("insertText:", "˔");
+
+	// Constants
+	"@~^2" = ("insertText:", "½");
+	"@~^3" = ("insertText:", "⅓");
+	"@~^\\#" = ("insertText:", "⅔");
+	"@~^4" = ("insertText:", "¼");
+	"@~^\\$" = ("insertText:", "¾");
+	"@~^h" = ("insertText:", "ℎ");  // Planck constant
+	"@~^H" = ("insertText:", "ℏ");  // reduced Planck constant
+
+	// Navigation
+	"~d" = "deleteWordForward:";
+	//"~\U007f" = "deleteWordBackward:";
+	"~f" = "moveWordForward:";
+	"~b" = "moveWordBackward:";
+	"~F" = "moveWordForwardAndModifySelection:";
+	"~B" = "moveWordBackwardAndModifySelection:";
+}
