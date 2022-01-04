@@ -20,9 +20,24 @@ atom.commands.add 'atom-text-editor',
     editor.insertText('̂')
 
 atom.commands.add 'atom-text-editor',
-  'custom:insert-bar': (event) ->
+  'custom:insert-overline': (event) ->
     editor = @getModel()
     editor.insertText('̅')
+
+atom.commands.add 'atom-text-editor',
+  'custom:insert-underline': (event) ->
+    editor = @getModel()
+    editor.insertText('̲')
+
+atom.commands.add 'atom-text-editor',
+  'custom:insert-overtensor': (event) ->
+    editor = @getModel()
+    editor.insertText('⃡')
+
+atom.commands.add 'atom-text-editor',
+  'custom:insert-overvector': (event) ->
+    editor = @getModel()
+    editor.insertText('⃗')
 
 atom.commands.add 'atom-text-editor',
   'custom:insert-tilde': (event) ->
