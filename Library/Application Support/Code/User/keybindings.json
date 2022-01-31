@@ -1,9 +1,18 @@
 // Place your key bindings in this file to override the defaults
 [
+    {"key": "cmd+alt+ctrl+a", "command": "type", "args": {"text": "ₐ"}},
+    {"key": "cmd+alt+ctrl+e", "command": "type", "args": {"text": "ₑ"}},
     {"key": "cmd+alt+ctrl+i", "command": "type", "args": {"text": "ᵢ"}},
     {"key": "cmd+alt+ctrl+j", "command": "type", "args": {"text": "ⱼ"}},
     {"key": "cmd+alt+ctrl+k", "command": "type", "args": {"text": "ₖ"}},
     {"key": "cmd+alt+ctrl+l", "command": "type", "args": {"text": "ₗ"}},
     {"key": "cmd+alt+ctrl+m", "command": "type", "args": {"text": "ₘ"}},
     {"key": "cmd+alt+ctrl+n", "command": "type", "args": {"text": "ₙ"}},
+    {"key": "cmd+alt+ctrl+o", "command": "type", "args": {"text": "ₒ"}},
+    {"key": "cmd+alt+ctrl+p", "command": "type", "args": {"text": "ₚ"}},
+    {"key": "cmd+alt+ctrl+r", "command": "type", "args": {"text": "ᵣ"}},
+    {"key": "cmd+alt+ctrl+s", "command": "type", "args": {"text": "ₛ"}},
+    {"key": "cmd+alt+ctrl+t", "command": "type", "args": {"text": "ₜ"}},
+    {"key": "cmd+alt+ctrl+u", "command": "type", "args": {"text": "ᵤ"}},
+    {"key": "cmd+alt+ctrl+v", "command": "type", "args": {"text": "ᵥ"}},
 ]
