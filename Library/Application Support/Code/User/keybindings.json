@@ -1,6 +1,8 @@
 // Place your key bindings in this file to override the defaults
 [
     {"key": "alt+w", "command": "type", "args": {"text": "∑"}},
+    {"key": "cmd+alt+ctrl+[Backslash]", "command": "type", "args": {"text": "∥"}},
+    {"key": "cmd+alt+ctrl+shift+[Backslash]", "command": "type", "args": {"text": "˔"}},
     {"key": "cmd+alt+ctrl+a", "command": "type", "args": {"text": "ₐ"}},
     {"key": "cmd+alt+ctrl+e", "command": "type", "args": {"text": "ₑ"}},
     {"key": "cmd+alt+ctrl+i", "command": "type", "args": {"text": "ᵢ"}},
