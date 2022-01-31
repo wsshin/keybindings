@@ -15,4 +15,8 @@
     {"key": "cmd+alt+ctrl+t", "command": "type", "args": {"text": "ₜ"}},
     {"key": "cmd+alt+ctrl+u", "command": "type", "args": {"text": "ᵤ"}},
     {"key": "cmd+alt+ctrl+v", "command": "type", "args": {"text": "ᵥ"}},
+    {"key": "cmd+alt+ctrl+shift+9", "command": "type", "args": {"text": "⁽"}},
+    {"key": "cmd+alt+ctrl+shift+0", "command": "type", "args": {"text": "⁾"}},
+    {"key": "cmd+alt+ctrl+9", "command": "type", "args": {"text": "₍"}},
+    {"key": "cmd+alt+ctrl+0", "command": "type", "args": {"text": "₎"}},
 ]
