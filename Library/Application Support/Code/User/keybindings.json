@@ -22,4 +22,7 @@
     {"key": "cmd+alt+ctrl+shift+0", "command": "type", "args": {"text": "⁾"}},
     {"key": "cmd+alt+ctrl+9", "command": "type", "args": {"text": "₍"}},
     {"key": "cmd+alt+ctrl+0", "command": "type", "args": {"text": "₎"}},
+    {"key": "cmd+alt+ctrl+6", "command": "type", "args": {"text": "̂"}},
+    {"key": "cmd+alt+ctrl+[ArrowUp]", "command": "type", "args": {"text": "̅"}},
+    {"key": "cmd+alt+ctrl+[ArrowDown]", "command": "type", "args": {"text": "̲"}},
 ]
