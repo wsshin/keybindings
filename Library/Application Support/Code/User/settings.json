@@ -14,8 +14,5 @@
     "editor.hover.enabled": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.lightbulb.enabled": false,
-    "editor.rulers": [
-
-        
-        92],
+    "editor.rulers": [92],
 }
