@@ -1,8 +1,5 @@
 {
-    "workbench.colorTheme": "Default Light+",
     "window.autoDetectColorScheme": true,
-    "window.nativeTabs": true,
-    "window.zoomLevel": 1,
     "terminal.integrated.commandsToSkipShell": [
         "language-julia.interrupt"
     ],
@@ -14,5 +11,10 @@
     "editor.hover.enabled": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.lightbulb.enabled": false,
-    "editor.rulers": [92],
+    "editor.rulers": [
+        92
+    ],
+    "window.zoomLevel": 1,
+    "window.nativeTabs": true,
+    "workbench.colorTheme": "Default Light+",
 }
