@@ -30,4 +30,6 @@
     {"key": "cmd+alt+ctrl+`", "command": "type", "args": {"text": "̃"}},
     {"key": "cmd+alt+ctrl+[ArrowUp]", "command": "type", "args": {"text": "̅"}},
     {"key": "cmd+alt+ctrl+[ArrowDown]", "command": "type", "args": {"text": "̲"}},
+    {"key": "alt+j", "command": "type", "args": {"text": "∆"}},
+    {"key": "alt+v", "command": "type", "args": {"text": "√"}},
 ]
