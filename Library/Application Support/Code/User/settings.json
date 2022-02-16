@@ -16,5 +16,6 @@
     ],
     "window.zoomLevel": 1,
     "window.nativeTabs": true,
+    "julia.enableCrashReporter": false,
     "workbench.colorTheme": "Default Light+",
 }
