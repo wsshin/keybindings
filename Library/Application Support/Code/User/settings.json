@@ -18,4 +18,10 @@
     "window.nativeTabs": true,
     "window.title": "${rootName}",
     "julia.enableCrashReporter": false,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.quickSuggestionsDelay": 1000000,
 }
