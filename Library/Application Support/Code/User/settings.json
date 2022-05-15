@@ -16,5 +16,6 @@
     ],
     "window.zoomLevel": 1,
     "window.nativeTabs": true,
+    "window.title": "${rootName}",
     "julia.enableCrashReporter": false,
 }
