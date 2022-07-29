@@ -55,6 +55,7 @@
     {"key": "cmd+alt+ctrl+t", "command": "type", "args": {"text": "ₜ"}},
     {"key": "cmd+alt+ctrl+u", "command": "type", "args": {"text": "ᵤ"}},
     {"key": "cmd+alt+ctrl+v", "command": "type", "args": {"text": "ᵥ"}},
+    {"key": "alt+ctrl+n", "command": "type", "args": {"text": "ν"}},
 
     // Repeat of the above for VS Code terminal
     {"key": "cmd+alt+ctrl+6", "command": "workbench.action.terminal.sendSequence", "when": "terminalFocus", "args": {"text": "̂"}},
